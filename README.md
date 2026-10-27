@@ -1,3 +1,9 @@
+## 🦙 Meta Models Used
+- **Llama 4 Scout (via Meta Model API)**: Fitness evaluation 0-1050, replaces regex
+- **Llama Voice Transcribe**: Audio memories -> TetrisBlocks
+- Built with Muse
+
+This project solves my 198 lost conversations problem using Meta's models.
 # VALERY v4.1 — Adaptive Cognitive Evolution System
 > 198 → 27.706 → 32.218 → 20 → 4 → 0% - First Memory OS that dreams
 
