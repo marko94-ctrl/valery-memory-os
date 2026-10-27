@@ -1,0 +1,27 @@
+{
+    "model_name": "Valery v4.1 – Adaptive Cognitive Evolution System",
+    "hyperparameters": {
+        "population_size": 40,
+        "generations": 30,
+        "base_mutation_rate": 0.12,
+        "elitism": 2,
+        "mutation_scale_limit": 0.35
+    },
+    "fitness_weights": {
+        "alpha_technical": 0.5,
+        "beta_ethical": 0.3,
+        "gamma_identity": 0.2
+    },
+    "modules": {
+        "emotional_gradient_model": {
+            "smoothing": 0.85,
+            "description": "Stabilizira emocionalni ton kroz generacije i penalizira nagle skokove."
+        },
+        "cognitive_load_balancer": {
+            "description": "Prilagođava dubinu odgovora ovisno o kompleksnosti zadatka."
+        },
+        "self_reflection_module": {
+            "description": "Interna evaluacija odgovora koja nagrađuje balans između tehničke, etičke i identitetske komponente."
+        }
+    }
+}
